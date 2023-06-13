@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -n "Enter input: "
+read input
+output=$(echo "$input" | tr -d 'cC')
+echo "Modified output: $output"
